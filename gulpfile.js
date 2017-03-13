@@ -20,7 +20,7 @@ gulp.task('speed', (cb) => {
 });
 
 gulp.task('pug', () => {
-    return gulp.src('src/*.pug')
+    return gulp.src('src/view/*.pug')
         .pipe($.pug())
         .pipe(gulp.dest('dist/'));
 });
@@ -36,8 +36,17 @@ gulp.task('js', () => {
         .pipe(gulp.dest('dist/js/'));
 });
 
+gulp.task('libs', () => {
+    return gulp.src('src/libs/**/*')
+        .pipe(gulp.dest('dist/libs/'));
+});
 
-gulp.task('serve', ['pug'], () => {
+gulp.task('misc', () => {
+    return gulp.src('src/*')
+        .pipe(gulp.dest('dist/'));
+});
+
+gulp.task('serve', ['clean', 'pug', 'js', 'libs', 'misc'], () => {
     browserSync({
         server: {
             baseDir: "dist",
@@ -47,6 +56,7 @@ gulp.task('serve', ['pug'], () => {
     });
 
     gulp.watch(['src/js/*.js'], ['js']);
-    gulp.watch(['src/*.pug'], ['pug']);
+    gulp.watch(['src/view/**/*'], ['pug']);
+    gulp.watch(['src/libs/**/*'], ['libs']);
     gulp.watch(['dist/**/*'], browserSync.reload);
 });

@@ -1,0 +1,16 @@
+nav .contact span {
+  color: #18bc9c; }
+
+nav .contact i {
+  color: #18bc9c;
+  margin-right: 5px; }
+
+nav .contact a:hover {
+  text-decoration: underline; }
+
+.jumbotron .glyphicon {
+  color: #18bc9c;
+  margin-right: 10px; }
+
+.jumbotron a {
+  margin-top: 20px; }

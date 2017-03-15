@@ -70,3 +70,21 @@ nav {
 #fz54 {
   @include bullets
 }
+
+#documents {
+  .decree-main {
+    margin-bottom: 0;
+  }
+
+  .decree-date {
+    font-style: italic;
+    color: #aaa;
+    margin-right: 10px;
+  }
+
+  .decree-about {
+    color: #555;
+    font-size: 12px;
+    margin-left: 90px;
+  }
+}

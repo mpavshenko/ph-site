@@ -1,16 +1,60 @@
+nav i {
+  margin-right: 5px;
+  width: 14px;
+  height: 14px; }
+
 nav .contact span {
   color: #18bc9c; }
 
 nav .contact i {
-  color: #18bc9c;
-  margin-right: 5px; }
+  color: #18bc9c; }
 
 nav .contact a:hover {
   text-decoration: underline; }
 
 .jumbotron .glyphicon {
   color: #18bc9c;
-  margin-right: 10px; }
+  margin-right: 10px;
+  width: 26px;
+  height: 26px; }
 
 .jumbotron a {
   margin-top: 20px; }
+
+.important .header {
+  font-size: 30px; }
+
+.important .fa {
+  margin-right: 10px;
+  color: #18bc9c;
+  width: 10px;
+  height: 26px; }
+
+.important h2 {
+  font-size: 25px; }
+  .important h2 .name {
+    opacity: 0.5; }
+
+#magistr li {
+  display: block; }
+
+#magistr li:before {
+  content: "\e080";
+  font-family: 'Glyphicons Halflings';
+  font-size: 9px;
+  float: left;
+  margin-top: 4px;
+  margin-left: -17px;
+  color: #CCCCCC; }
+
+#fz54 li {
+  display: block; }
+
+#fz54 li:before {
+  content: "\e080";
+  font-family: 'Glyphicons Halflings';
+  font-size: 9px;
+  float: left;
+  margin-top: 4px;
+  margin-left: -17px;
+  color: #CCCCCC; }

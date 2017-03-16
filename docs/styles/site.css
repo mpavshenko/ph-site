@@ -32,8 +32,6 @@ nav .contact a:hover {
 
 .important h2 {
   font-size: 25px; }
-  .important h2 .name {
-    opacity: 0.5; }
 
 #magistr li {
   display: block; }
@@ -46,6 +44,9 @@ nav .contact a:hover {
   margin-top: 4px;
   margin-left: -17px;
   color: #CCCCCC; }
+
+#magistr > ul > li {
+  margin-bottom: 15px; }
 
 #fz54 li {
   display: block; }
@@ -62,12 +63,5 @@ nav .contact a:hover {
 #documents .decree-main {
   margin-bottom: 0; }
 
-#documents .decree-date {
-  font-style: italic;
-  color: #aaa;
-  margin-right: 10px; }
-
 #documents .decree-about {
-  color: #555;
-  font-size: 12px;
-  margin-left: 90px; }
+  font-size: 12px; }

@@ -34,7 +34,9 @@
     "gulp-size": "^2.1.0",
     "gulp-sourcemaps": "^2.4.1",
     "gulp-uglify": "^2.0.1",
+    "gulp-util": "^3.0.8",
     "gulp-watch": "^4.3.11",
-    "psi": "^3.0.0"
+    "psi": "^3.0.0",
+    "vinyl-ftp": "^0.6.0"
   }
 }

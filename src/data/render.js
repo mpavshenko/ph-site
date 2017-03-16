@@ -2,9 +2,8 @@ var fs = require('fs');
 
 function renderRow(r) {
     return `<p class="decree-main">
-        <span class="decree-date">${r[3]}</span> 
         <a href="${r[5]}">
-            ${r[0]} №${r[1]} от ${r[2]}
+            ${r[0]} от ${r[2]} №${r[1]} 
         </a>
         </p>
         <p class="decree-about">${r[4]}.<p>`

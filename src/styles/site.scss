@@ -19,6 +19,7 @@ nav {
 }
 
 .jumbotron {
+   // background: url('https://i.ytimg.com/vi/y0sl4fIxm4E/maxresdefault.jpg') no-repeat center center;
   .glyphicon {
     color: $higlight-color;
     margin-right: 10px;
@@ -42,9 +43,6 @@ nav {
   }
   h2 {
     font-size: 25px;
-    .name {
-      opacity: 0.5;
-    }
   }
 }
 
@@ -67,6 +65,10 @@ nav {
   @include bullets
 }
 
+#magistr>ul>li {
+  margin-bottom: 15px;
+}
+
 #fz54 {
   @include bullets
 }
@@ -76,15 +78,7 @@ nav {
     margin-bottom: 0;
   }
 
-  .decree-date {
-    font-style: italic;
-    color: #aaa;
-    margin-right: 10px;
-  }
-
   .decree-about {
-    color: #555;
     font-size: 12px;
-    margin-left: 90px;
   }
 }

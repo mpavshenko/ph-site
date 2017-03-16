@@ -1,21 +1,22 @@
 header
-    nav.navbar.navbar-default
+    nav.navbar.navbar-default.navbar-static-top
         .container
             .navbar-header
+                button.navbar-toggle.collapsed(type="button" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar")
+                    span.icon-bar
+                    span.icon-bar
+                    span.icon-bar
                 a.navbar-brand(href="index.html" style="padding: 15px 30px 0 0;") 
-                    img(src="logo.png" style="display: inline; margin-left: 20px; margin-top: -7px")
+                    img(src="/images/logo.png" style="display: inline; margin-left: 20px; margin-top: -7px")
                     span(style="margin-left: 10px; margin-top: -10px; font-size: 25px") Фармком
-                button.navbar-toggle(type="button" data-toggle="collapse" data-target="#navbar-main")
-                    span.icon-bar
-                    span.icon-bar
-                    span.icon-bar
-            div#navbar-main.navbar-collapse.collapse
+            #navbar.navbar-collapse.collapse
                 ul.nav.navbar-nav
-                    li: a(href="magistr.html") 
+                    li#menu-item-home: a(href="index.html") Главная
+                    li#menu-item-magistr: a(href="magistr.html") 
                         i.glyphicon.glyphicon-education
                         span МАГИСТР
-                    li: a(href="documents.html") Нормативные документы
-                    li: a(href="about.html") О компании
+                    li#menu-item-documents: a(href="documents.html") Нормативные документы
+                    li#menu-item-about: a(href="about.html") О компании
                 ul.nav.navbar-nav.navbar-right
                     li.contact
                         a(href="mailto: phc@farmcom.ru") 

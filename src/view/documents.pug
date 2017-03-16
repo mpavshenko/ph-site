@@ -1,6 +1,9 @@
 extends ext/layout.pug
 
 block content
+    script.
+        $('#navbar li').removeClass('active')
+        $('#menu-item-documents').addClass('active')
     #documents
         h1 Нормативные документы для аптек
         include ext/documents.html

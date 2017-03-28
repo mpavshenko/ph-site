@@ -5,5 +5,15 @@ block content
         $('#navbar li').removeClass('active')
         $('#menu-item-documents').addClass('active')
     #documents
-        h1 Нормативные документы для аптек
-        include ext/documents.html
+        .row
+            .col-md-9
+                h1 Нормативные документы для аптек
+                include ext/documents.html
+            .col-md-3
+                nav.hidden-print.hidden-sm.hidden-xs.affix
+                    ul.nav
+                        include ext/documents-nav.html
+                    hr
+                    a#go-up(href="#top") 
+                        i.fa.fa-arrow-circle-o-up
+                        span Вверх

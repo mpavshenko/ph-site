@@ -3,17 +3,22 @@ nav i {
   width: 14px;
   height: 14px; }
 
-nav .contact span {
-  color: #18bc9c; }
-
-nav .contact i {
-  color: #18bc9c; }
+nav .navbar-brand {
+  padding-top: 12px; }
+  nav .navbar-brand img {
+    display: inline;
+    margin-left: 20px;
+    margin-top: -7px; }
+  nav .navbar-brand span {
+    margin-left: 10px;
+    margin-right: 5px;
+    font-size: 28px; }
 
 nav .contact a:hover {
   text-decoration: underline; }
 
 .jumbotron .glyphicon {
-  color: #18bc9c;
+  color: #2780E3;
   margin-right: 10px;
   width: 26px;
   height: 26px; }
@@ -21,17 +26,17 @@ nav .contact a:hover {
 .jumbotron a {
   margin-top: 20px; }
 
-.important .header {
-  font-size: 30px; }
-
 .important .fa {
   margin-right: 10px;
-  color: #18bc9c;
+  color: #2780E3;
   width: 10px;
   height: 26px; }
 
 .important h2 {
-  font-size: 25px; }
+  font-size: 20px; }
+
+.important span {
+  font-weight: 400; }
 
 #magistr li {
   display: block; }
@@ -62,6 +67,11 @@ nav .contact a:hover {
 
 #documents .decree-main {
   margin-bottom: 0; }
+  #documents .decree-main a {
+    font-weight: 500; }
 
 #documents .decree-about {
   font-size: 12px; }
+
+#documents #go-up {
+  margin-left: 15px; }

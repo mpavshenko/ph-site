@@ -1,4 +1,10 @@
-$higlight-color: #2780E3;
+$higlight-color: #18bc9c;
+$a-color: #376996;
+
+a, a:hover {
+  color: $a-color;
+}
+
 nav {
   i {
     margin-right: 5px;
@@ -6,7 +12,7 @@ nav {
     height: 14px;
   }
   .navbar-brand {
-    padding-top: 12px;
+    padding-top: 15px;
     img {
       display: inline;
       margin-left: 20px;
@@ -15,11 +21,16 @@ nav {
     span {
       margin-left: 10px;
       margin-right: 5px;
-      // margin-top: -20px;
-      font-size: 28px
+      font-size: 24px
     }
   }
   .contact {
+    span, i {
+      color: $higlight-color;
+    }
+    i {
+      margin-right: 7px;
+    }
     a:hover {
       text-decoration: underline;
     }
@@ -31,6 +42,7 @@ nav {
 // a style="padding: 15px 30px 0 0;"
 .jumbotron {
   // background: url('https://i.ytimg.com/vi/y0sl4fIxm4E/maxresdefault.jpg') no-repeat center center;
+  // background-color: #829CBC;
   .glyphicon {
     color: $higlight-color;
     margin-right: 10px;
@@ -45,7 +57,7 @@ nav {
 .important {
   .fa {
     margin-right: 10px;
-    color: $higlight-color;
+    color: $a-color;
     width: 10px;
     height: 26px;
   }

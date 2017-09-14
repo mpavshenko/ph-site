@@ -19,7 +19,8 @@
   "devDependencies": {
     "babel-core": "^6.23.1",
     "babel-preset-es2015": "^6.22.0",
-    "del": "^2.2.2",
+    "browser-sync": "^2.18.12",
+    "del": "^3.0.0",
     "gulp": "^3.9.1",
     "gulp-babel": "^6.1.2",
     "gulp-browserify": "^0.5.1",
@@ -33,7 +34,7 @@
     "gulp-sequence": "^0.4.6",
     "gulp-size": "^2.1.0",
     "gulp-sourcemaps": "^2.4.1",
-    "gulp-uglify": "^2.0.1",
+    "gulp-uglify": "^3.0.0",
     "gulp-util": "^3.0.8",
     "gulp-watch": "^4.3.11",
     "psi": "^3.0.0",
